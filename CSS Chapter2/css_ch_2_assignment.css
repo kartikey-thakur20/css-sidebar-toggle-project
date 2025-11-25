@@ -1,0 +1,21 @@
+#heading{
+    color:blue;
+}
+
+*{
+    text-align:center;
+}
+
+.myclass{
+     font-style:'Georgia'; 
+}
+
+div p{
+    color:white;
+    background-color:black;
+}
+
+div button{
+    background-color:purple;
+    color:azure;
+}
