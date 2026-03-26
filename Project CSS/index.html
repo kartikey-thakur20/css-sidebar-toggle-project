@@ -52,19 +52,111 @@
         <div class="sticky-nav">
             <div class="sticky-nav-icons">
                  <img src="backward_icon.png">
-                 <img src="forward_icon.png">
+                 <img src="forward_icon.png" class="hide">
             </div>
             <div class="sticky-nav-options">
-                 <button class="badge">Explore Premium</button>
-            <button class="badge"><i class="fa-sharp fa-regular fa-circle-down"></i>Install App</button>
-            <i class="fa-notdog fa-solid fa-users"></i> 
+                <button class="badge nav-item hide">Explore Premium</button>
+                <button class="badge nav-item dark-badge"><i class="fa-sharp fa-regular fa-circle-down" styel="margin-left:5px;"></i>Install App</button>
+            <i class="fa-notdog fa-solid fa-users  nav-item"></i> 
             </div>
             
         </div>
-        <div class="cards"></div>
+            
+        <div class="cards">
+            <h2>Recently played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="card1img.jpeg">
+                    <p class="card-tittle">Top 50 GLOBAL</p>
+                    <p class="card-info">Your daily update of the most played...</p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="card1img.jpeg">
+                    <p class="card-tittle">Top 50 GLOBAL</p>
+                    <p class="card-info">Your daily update of the most played...</p>
+                </div>
+
+                <div class="card">
+                    <img src="card2img.jpeg">
+                    <p class="card-tittle">Top 50 GLOBAL</p>
+                    <p class="card-info">Your daily update of the most played...</p>
+                </div>
+
+                <div class="card">
+                    <img src="card3img.jpeg">
+                    <p class="card-tittle">Top 50 GLOBAL</p>
+                    <p class="card-info">Your daily update of the most played...</p>
+                </div>
+
+            </div>
+
+            <h2>Popular playlists</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="card2img.jpeg">
+                    <p class="card-tittle">Top 50 GLOBAL</p>
+                    <p class="card-info">Your daily update of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="card3img.jpeg">
+                    <p class="card-tittle">Top 50 GLOBAL</p>
+                    <p class="card-info">Your daily update of the most played...</p>
+                </div>
+                <div class="card">
+                    <img src="card4img.jpeg">
+                    <p class="card-tittle">Top 50 GLOBAL</p>
+                    <p class="card-info">Your daily update of the most played...</p>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="card5img.jpeg">
+                    <p class="card-tittle">Top 50 GLOBAL</p>
+                    <p class="card-info">Your daily update of the most played...</p>
+                </div>
+
+                <div class="card">
+                    <img src="card6img.jpeg">
+                    <p class="card-tittle">Top 50 GLOBAL</p>
+                    <p class="card-info">Your daily update of the most played...</p>
+                </div>
+
+                <div class="card">
+                    <img src="card1img.jpeg">
+                    <p class="card-tittle">Top 50 GLOBAL</p>
+                    <p class="card-info">Your daily update of the most played...</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+
     </div>
-    <div class="music-player">Music Player</div>
-   </div>
-    
+    <div class="music-player">
+        <div class="album"></div>
+        <div class="player">
+            <div class="player-controls">
+                <img src="player_icon1.png" class="player-control-icon">
+                <img src="player_icon2.png" class="player-control-icon">
+                <img src="player_icon3.png" class="player-control-icon" style="opacity:1; height:2rem;">
+                <img src="player_icon4.png" class="player-control-icon">
+                <img src="player_icon5.png" class="player-control-icon">
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">00.00</span>
+                <input type="range" min="0" max="100" step="1" class="progress-bar">
+            </div>
+        </div>
+        <div class="controls"></div>
+    </div>
+    </div> 
+    </div> 
 </body>
 </html>
